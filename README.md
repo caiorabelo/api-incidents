@@ -2,7 +2,7 @@
 
 ## About
 
-Sistema durante o projeto de programação desenvolvido pela empresa RedBelt. A aplicação do sistema era disponibilizada em uma interface de dados de incidentes de API REST para fins de consumo e exibição através de um frontend desenvolvido na biblioteca React.
+Sistema desenvolvido durante o projeto de programação para a empresa RedBelt. A aplicação disponibiliza através de uma API REST os dados para fins de consumo.
 
 -------------------------------------------------
 
