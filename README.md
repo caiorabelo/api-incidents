@@ -1,6 +1,6 @@
-# REST API INCIDENTS
+# REST API INCIDENTES
 
-## About
+## Sobre
 
 Sistema desenvolvido durante o projeto de programação para a empresa RedBelt. A aplicação disponibiliza através de uma API REST os dados para fins de consumo.
 
@@ -25,7 +25,7 @@ Sistema desenvolvido durante o projeto de programação para a empresa RedBelt. 
      docker-compose exec --user=laradock workspace bash
      ```
      ```bash
-     composer install bash
+     composer install
      ```
      ```bash
      php artisan migrate:fresh --seed
@@ -77,7 +77,7 @@ http://localhost:8000/api/incidents/id
 `DELETE /api/incidents/:id`
 
 ```bash
-http://localhost:8000/api/incidents/1
+http://localhost:8000/api/incidents/id
 ```
 
 ## Rest API - EndPoint Criticidade
@@ -96,7 +96,7 @@ http://localhost:8000/api/criticalities
 
 #### Requisição
 
-`GET /api/criticalities/`
+`GET /api/types/`
 
 ```bash
 http://localhost:8000/api/types
